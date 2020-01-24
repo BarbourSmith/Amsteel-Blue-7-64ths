@@ -12,8 +12,8 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 219,
-                    "y": 144,
+                    "x": 112,
+                    "y": 97,
                     "uniqueID": 979675,
                     "ioValues": [
                         {
@@ -25,13 +25,34 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 466,
-                    "y": 171,
+                    "x": 299,
+                    "y": 114,
                     "uniqueID": 423448,
                     "ioValues": [
                         {
                             "name": "height",
                             "ioValue": 300
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 483,
+                    "y": 234,
+                    "uniqueID": 551449,
+                    "ioValues": [
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 90
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 0
                         }
                     ]
                 },
@@ -54,7 +75,7 @@
                     "BOMitem": {
                         "BOMitemName": "7/16 Amsteel Blue",
                         "numberNeeded": 11,
-                        "costUSD": 0,
+                        "costUSD": 0.2,
                         "source": "https://www.amazon.com/Amsteel-Blue-64-Rope-Strand/dp/B003YHV3E8",
                         "totalNeeded": 1
                     }
@@ -80,6 +101,13 @@
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 423448,
+                    "ap2ID": 551449
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 551449,
                     "ap2ID": 849676
                 },
                 {
@@ -88,6 +116,12 @@
                     "ap2Primary": true,
                     "ap1ID": 849676,
                     "ap2ID": 862465
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 862465
                 }
             ],
             "fileTypeVersion": 1
