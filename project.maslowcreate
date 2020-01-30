@@ -66,14 +66,14 @@
                     "selectedColorIndex": "9"
                 },
                 {
-                    "atomType": "Add-BOM-Tag",
+                    "atomType": "Add BOM Tag",
                     "name": "Add BOM Tag",
-                    "x": 967,
-                    "y": 149,
-                    "uniqueID": 862465,
+                    "x": 1027,
+                    "y": 134,
+                    "uniqueID": 705620,
                     "ioValues": [],
                     "BOMitem": {
-                        "BOMitemName": "7/16 Amsteel Blue",
+                        "BOMitemName": "name",
                         "numberNeeded": 11,
                         "costUSD": 0.2,
                         "source": "https://www.amazon.com/Amsteel-Blue-64-Rope-Strand/dp/B003YHV3E8",
@@ -115,13 +115,13 @@
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 849676,
-                    "ap2ID": 862465
+                    "ap2ID": 705620
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap2Primary": false,
-                    "ap1ID": 862465
+                    "ap1ID": 705620
                 }
             ],
             "fileTypeVersion": 1
