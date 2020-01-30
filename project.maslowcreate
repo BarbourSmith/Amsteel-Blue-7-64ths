@@ -18,15 +18,55 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 2.5
+                            "ioValue": 3.5
                         }
                     ]
                 },
                 {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 127,
+                    "y": 214,
+                    "uniqueID": 435332,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Color",
+                    "name": "Color",
+                    "x": 269,
+                    "y": 119,
+                    "uniqueID": 292879,
+                    "ioValues": [],
+                    "selectedColorIndex": "9"
+                },
+                {
+                    "atomType": "Color",
+                    "name": "Color",
+                    "x": 274,
+                    "y": 190,
+                    "uniqueID": 341906,
+                    "ioValues": [],
+                    "selectedColorIndex": "12"
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 405,
+                    "y": 179,
+                    "uniqueID": 528456,
+                    "ioValues": [],
+                    "removeCutawayGeometry": true
+                },
+                {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 299,
-                    "y": 114,
+                    "x": 712,
+                    "y": 86,
                     "uniqueID": 423448,
                     "ioValues": [
                         {
@@ -38,8 +78,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 483,
-                    "y": 234,
+                    "x": 912,
+                    "y": 97,
                     "uniqueID": 551449,
                     "ioValues": [
                         {
@@ -55,15 +95,6 @@
                             "ioValue": 0
                         }
                     ]
-                },
-                {
-                    "atomType": "Color",
-                    "name": "Color",
-                    "x": 697,
-                    "y": 204,
-                    "uniqueID": 849676,
-                    "ioValues": [],
-                    "selectedColorIndex": "9"
                 },
                 {
                     "atomType": "Add BOM Tag",
@@ -100,6 +131,20 @@
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
+                    "ap1ID": 979675,
+                    "ap2ID": 292879
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 435332,
+                    "ap2ID": 341906
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
                     "ap1ID": 423448,
                     "ap2ID": 551449
                 },
@@ -108,13 +153,6 @@
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 551449,
-                    "ap2ID": 849676
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 849676,
                     "ap2ID": 705620
                 },
                 {
