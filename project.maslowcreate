@@ -6,14 +6,31 @@
             "x": 0,
             "y": 0,
             "uniqueID": 289068,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "Lengths",
+                    "ioValue": 10
+                },
+                {
+                    "name": "Angle",
+                    "ioValue": 10
+                }
+            ],
             "topLevel": true,
             "allAtoms": [
                 {
+                    "atomType": "Input",
+                    "name": "Lengths",
+                    "x": 30,
+                    "y": 32,
+                    "uniqueID": 323766,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 112,
-                    "y": 97,
+                    "x": 60,
+                    "y": 113,
                     "uniqueID": 979675,
                     "ioValues": [
                         {
@@ -25,8 +42,8 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 127,
-                    "y": 214,
+                    "x": 88,
+                    "y": 175,
                     "uniqueID": 435332,
                     "ioValues": [
                         {
@@ -38,17 +55,25 @@
                 {
                     "atomType": "Color",
                     "name": "Color",
-                    "x": 269,
-                    "y": 119,
+                    "x": 232,
+                    "y": 89,
                     "uniqueID": 292879,
                     "ioValues": [],
                     "selectedColorIndex": "9"
                 },
                 {
+                    "atomType": "Input",
+                    "name": "Angle",
+                    "x": 30,
+                    "y": 274,
+                    "uniqueID": 672145,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Color",
                     "name": "Color",
-                    "x": 274,
-                    "y": 190,
+                    "x": 268,
+                    "y": 161,
                     "uniqueID": 341906,
                     "ioValues": [],
                     "selectedColorIndex": "12"
@@ -56,8 +81,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 439,
-                    "y": 158,
+                    "x": 370,
+                    "y": 115,
                     "uniqueID": 528456,
                     "ioValues": [
                         {
@@ -74,21 +99,21 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 620,
-                    "y": 156,
+                    "x": 495,
+                    "y": 61,
                     "uniqueID": 423448,
                     "ioValues": [
                         {
                             "name": "height",
-                            "ioValue": 300
+                            "ioValue": 10
                         }
                     ]
                 },
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 810,
-                    "y": 154,
+                    "x": 590,
+                    "y": 106,
                     "uniqueID": 551449,
                     "ioValues": [
                         {
@@ -106,10 +131,31 @@
                     ]
                 },
                 {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 694,
+                    "y": 215,
+                    "uniqueID": 890156,
+                    "ioValues": [
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 180
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
                     "atomType": "Add BOM Tag",
                     "name": "Add BOM Tag",
-                    "x": 1001,
-                    "y": 154,
+                    "x": 1135,
+                    "y": 174,
                     "uniqueID": 705620,
                     "ioValues": [],
                     "BOMitem": {
@@ -130,6 +176,13 @@
             ],
             "allConnectors": [
                 {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "height",
+                    "ap2Primary": false,
+                    "ap1ID": 323766,
+                    "ap2ID": 423448
+                },
+                {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
@@ -149,6 +202,13 @@
                     "ap2Primary": false,
                     "ap1ID": 292879,
                     "ap2ID": 528456
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "z-axis degrees",
+                    "ap2Primary": false,
+                    "ap1ID": 672145,
+                    "ap2ID": 890156
                 },
                 {
                     "ap1Name": "geometry",
@@ -177,6 +237,13 @@
                     "ap2Primary": true,
                     "ap1ID": 551449,
                     "ap2ID": 705620
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 551449,
+                    "ap2ID": 890156
                 },
                 {
                     "ap1Name": "geometry",
