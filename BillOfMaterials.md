@@ -2,7 +2,7 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|name|12|$0.20|https://www.amazon.com/Amsteel-Blue-64-Rope-Strand/dp/B003YHV3E8|
-|Total: |12|$0.20| |
+|name|11|$0.20|https://www.amazon.com/Amsteel-Blue-64-Rope-Strand/dp/B003YHV3E8|
+|Total: |11|$0.20| |
 
  3xCOG MSRP: $0.60

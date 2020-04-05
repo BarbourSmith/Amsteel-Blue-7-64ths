@@ -4,9 +4,3 @@
 
 ![](/project.svg)
 
-## Amsteel Blue 7/64ths
-
-
-undefined
-
-
