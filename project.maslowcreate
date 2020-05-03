@@ -25,6 +25,15 @@
             "ioValues": []
         },
         {
+            "atomType": "Color",
+            "name": "Color",
+            "x": 0.17862371888726208,
+            "y": 0.2950191570881226,
+            "uniqueID": 292879,
+            "ioValues": [],
+            "selectedColorIndex": "9"
+        },
+        {
             "atomType": "Circle",
             "name": "Circle",
             "x": 0.07247437774524158,
@@ -51,19 +60,10 @@
             ]
         },
         {
-            "atomType": "Color",
-            "name": "Color",
-            "x": 0.16398243045387995,
-            "y": 0.4444444444444444,
-            "uniqueID": 292879,
-            "ioValues": [],
-            "selectedColorIndex": "9"
-        },
-        {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.2781844802342606,
-            "y": 0.43295019157088127,
+            "x": 0.27964860907759886,
+            "y": 0.4674329501915709,
             "uniqueID": 528456,
             "ioValues": [
                 {
@@ -109,13 +109,13 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 0.19838945827232798,
-                    "y": 0.5363984674329502,
+                    "x": 0.1815519765739385,
+                    "y": 0.31417624521072796,
                     "uniqueID": 308915,
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 4
+                            "ioValue": 10
                         },
                         {
                             "name": "y length",
@@ -126,11 +126,41 @@
                 {
                     "atomType": "Color",
                     "name": "Color",
-                    "x": 0.4575402635431918,
-                    "y": 0.48275862068965514,
+                    "x": 0.40702781844802344,
+                    "y": 0.25287356321839083,
                     "uniqueID": 306034,
                     "ioValues": [],
                     "selectedColorIndex": "12"
+                },
+                {
+                    "atomType": "Constant",
+                    "name": "Keepout Height",
+                    "x": 0.032210834553440704,
+                    "y": 0.49808429118773945,
+                    "uniqueID": 719421,
+                    "ioValues": [
+                        {
+                            "name": "number",
+                            "ioValue": 10
+                        }
+                    ],
+                    "evolve": false,
+                    "min": 0,
+                    "max": 20
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 0.17862371888726208,
+                    "y": 0.7318007662835249,
+                    "uniqueID": 892597,
+                    "ioValues": [
+                        {
+                            "name": "H",
+                            "ioValue": 10
+                        }
+                    ],
+                    "currentEquation": "H/2-(2.77/2)"
                 },
                 {
                     "atomType": "Translate",
@@ -141,7 +171,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 0.615
+                            "ioValue": 3.615
                         },
                         {
                             "name": "yDist",
@@ -177,6 +207,27 @@
                     "ap2ID": 172472
                 },
                 {
+                    "ap1Name": "number",
+                    "ap2Name": "H",
+                    "ap2Primary": false,
+                    "ap1ID": 719421,
+                    "ap2ID": 892597
+                },
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "x length",
+                    "ap2Primary": false,
+                    "ap1ID": 719421,
+                    "ap2ID": 308915
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "xDist",
+                    "ap2Primary": false,
+                    "ap1ID": 892597,
+                    "ap2ID": 172472
+                },
+                {
                     "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap2Primary": false,
@@ -202,7 +253,7 @@
                 },
                 {
                     "name": "zDist",
-                    "ioValue": -2
+                    "ioValue": -2.5
                 }
             ]
         },
@@ -230,8 +281,8 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.6595900439238653,
-            "y": 0.5019157088122606,
+            "x": 0.7020497803806734,
+            "y": 0.4559386973180076,
             "uniqueID": 624154,
             "ioValues": [
                 {
@@ -273,7 +324,7 @@
                 },
                 {
                     "name": "zDist",
-                    "ioValue": 0.5
+                    "ioValue": 1.5
                 }
             ]
         },
@@ -354,6 +405,23 @@
                 "source": "https://www.amazon.com/Amsteel-Blue-64-Rope-Strand/dp/B003YHV3E8",
                 "totalNeeded": 1
             }
+        },
+        {
+            "atomType": "Rectangle",
+            "name": "Rectangle",
+            "x": 0.7598828696925329,
+            "y": 0.8314176245210728,
+            "uniqueID": 945457,
+            "ioValues": [
+                {
+                    "name": "x length",
+                    "ioValue": 10
+                },
+                {
+                    "name": "y length",
+                    "ioValue": 10
+                }
+            ]
         }
     ],
     "allConnectors": [
@@ -363,6 +431,13 @@
             "ap2Primary": false,
             "ap1ID": 323766,
             "ap2ID": 423448
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 4",
+            "ap2Primary": false,
+            "ap1ID": 292879,
+            "ap2ID": 528456
         },
         {
             "ap1Name": "geometry",
@@ -377,13 +452,6 @@
             "ap2Primary": true,
             "ap1ID": 423448,
             "ap2ID": 551449
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "3D shape 4",
-            "ap2Primary": false,
-            "ap1ID": 292879,
-            "ap2ID": 528456
         },
         {
             "ap1Name": "geometry",
