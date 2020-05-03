@@ -62,8 +62,8 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.2891654465592972,
-            "y": 0.4061302681992337,
+            "x": 0.2781844802342606,
+            "y": 0.43295019157088127,
             "uniqueID": 528456,
             "ioValues": [
                 {
@@ -130,7 +130,7 @@
                     "y": 0.48275862068965514,
                     "uniqueID": 306034,
                     "ioValues": [],
-                    "selectedColorIndex": 0
+                    "selectedColorIndex": "12"
                 },
                 {
                     "atomType": "Translate",
@@ -141,7 +141,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": 0.615
                         },
                         {
                             "name": "yDist",
