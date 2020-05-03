@@ -300,10 +300,110 @@
             ]
         },
         {
+            "atomType": "Input",
+            "name": "Angle",
+            "x": 0.0212298682284041,
+            "y": 0.8773946360153256,
+            "uniqueID": 672145,
+            "ioValues": []
+        },
+        {
+            "atomType": "Translate",
+            "name": "Translate",
+            "x": 0.5812591508052709,
+            "y": 0.6934865900383141,
+            "uniqueID": 301064,
+            "ioValues": [
+                {
+                    "name": "xDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 1.5
+                }
+            ]
+        },
+        {
+            "atomType": "Add BOM Tag",
+            "name": "Add BOM Tag",
+            "x": 0.8667642752562226,
+            "y": 0.26436781609195403,
+            "uniqueID": 705620,
+            "ioValues": [],
+            "BOMitem": {
+                "BOMitemName": "name",
+                "numberNeeded": 11,
+                "costUSD": 0.2,
+                "source": "https://www.amazon.com/Amsteel-Blue-64-Rope-Strand/dp/B003YHV3E8",
+                "totalNeeded": 1
+            }
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.22181551976573938,
+            "y": 0.896551724137931,
+            "uniqueID": 435332,
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 4
+                }
+            ]
+        },
+        {
+            "atomType": "Color",
+            "name": "Color",
+            "x": 0.39385065885797954,
+            "y": 0.8773946360153256,
+            "uniqueID": 341906,
+            "ioValues": [],
+            "selectedColorIndex": "12"
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.5146412884333822,
+            "y": 0.8620689655172414,
+            "uniqueID": 724701,
+            "ioValues": [
+                {
+                    "name": "height",
+                    "ioValue": 6
+                }
+            ]
+        },
+        {
+            "atomType": "Translate",
+            "name": "Translate",
+            "x": 0.6259150805270864,
+            "y": 0.8659003831417625,
+            "uniqueID": 135216,
+            "ioValues": [
+                {
+                    "name": "xDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": -3
+                }
+            ]
+        },
+        {
             "atomType": "Molecule",
             "name": "Notch",
-            "x": 0.8081991215226939,
-            "y": 0.32950191570881227,
+            "x": 0.7620790629575402,
+            "y": 0.7586206896551725,
             "uniqueID": 152056,
             "ioValues": [],
             "topLevel": false,
@@ -450,111 +550,11 @@
             "fileTypeVersion": 1
         },
         {
-            "atomType": "Input",
-            "name": "Angle",
-            "x": 0.0212298682284041,
-            "y": 0.8773946360153256,
-            "uniqueID": 672145,
-            "ioValues": []
-        },
-        {
-            "atomType": "Translate",
-            "name": "Translate",
-            "x": 0.5812591508052709,
-            "y": 0.6934865900383141,
-            "uniqueID": 301064,
-            "ioValues": [
-                {
-                    "name": "xDist",
-                    "ioValue": 0
-                },
-                {
-                    "name": "yDist",
-                    "ioValue": 0
-                },
-                {
-                    "name": "zDist",
-                    "ioValue": 1.5
-                }
-            ]
-        },
-        {
-            "atomType": "Circle",
-            "name": "Circle",
-            "x": 0.22181551976573938,
-            "y": 0.896551724137931,
-            "uniqueID": 435332,
-            "ioValues": [
-                {
-                    "name": "diameter",
-                    "ioValue": 4
-                }
-            ]
-        },
-        {
-            "atomType": "Color",
-            "name": "Color",
-            "x": 0.39385065885797954,
-            "y": 0.8773946360153256,
-            "uniqueID": 341906,
-            "ioValues": [],
-            "selectedColorIndex": "12"
-        },
-        {
-            "atomType": "Extrude",
-            "name": "Extrude",
-            "x": 0.5146412884333822,
-            "y": 0.8620689655172414,
-            "uniqueID": 724701,
-            "ioValues": [
-                {
-                    "name": "height",
-                    "ioValue": 6
-                }
-            ]
-        },
-        {
-            "atomType": "Translate",
-            "name": "Translate",
-            "x": 0.6259150805270864,
-            "y": 0.8659003831417625,
-            "uniqueID": 135216,
-            "ioValues": [
-                {
-                    "name": "xDist",
-                    "ioValue": 0
-                },
-                {
-                    "name": "yDist",
-                    "ioValue": 0
-                },
-                {
-                    "name": "zDist",
-                    "ioValue": -3
-                }
-            ]
-        },
-        {
             "atomType": "Output",
             "name": "Output",
             "x": 0.9816983894582724,
             "y": 0.5134099616858238,
             "ioValues": []
-        },
-        {
-            "atomType": "Add BOM Tag",
-            "name": "Add BOM Tag",
-            "x": 0.883601756954612,
-            "y": 0.685823754789272,
-            "uniqueID": 705620,
-            "ioValues": [],
-            "BOMitem": {
-                "BOMitemName": "name",
-                "numberNeeded": 11,
-                "costUSD": 0.2,
-                "source": "https://www.amazon.com/Amsteel-Blue-64-Rope-Strand/dp/B003YHV3E8",
-                "totalNeeded": 1
-            }
         }
     ],
     "allConnectors": [
@@ -630,13 +630,6 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 624154,
-            "ap2ID": 705620
-        },
-        {
-            "ap1Name": "geometry",
             "ap2Name": "Geometry",
             "ap2Primary": false,
             "ap1ID": 624154,
@@ -655,6 +648,12 @@
             "ap2Primary": false,
             "ap1ID": 301064,
             "ap2ID": 624154
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 705620
         },
         {
             "ap1Name": "geometry",
@@ -685,10 +684,11 @@
             "ap2ID": 624154
         },
         {
-            "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
-            "ap2Primary": false,
-            "ap1ID": 705620
+            "ap1Name": "Geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 152056,
+            "ap2ID": 705620
         }
     ],
     "fileTypeVersion": 1,
