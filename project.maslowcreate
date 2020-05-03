@@ -300,6 +300,72 @@
             ]
         },
         {
+            "atomType": "Molecule",
+            "name": "Notch",
+            "x": 0.7986822840409956,
+            "y": 0.31417624521072796,
+            "uniqueID": 152056,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Input",
+                    "name": "Geometry",
+                    "x": 0.022693997071742314,
+                    "y": 0.5172413793103449,
+                    "uniqueID": 406163,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.30819912152269396,
+                    "y": 0.5632183908045977,
+                    "uniqueID": 795493,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 0.095900439238653,
+                    "y": 0.7892720306513409,
+                    "uniqueID": 581129,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 20
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 1
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.9853587115666179,
+                    "y": 0.5,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 581129,
+                    "ap2ID": 795493
+                }
+            ],
+            "fileTypeVersion": 1
+        },
+        {
             "atomType": "Input",
             "name": "Angle",
             "x": 0.0212298682284041,
@@ -405,23 +471,6 @@
                 "source": "https://www.amazon.com/Amsteel-Blue-64-Rope-Strand/dp/B003YHV3E8",
                 "totalNeeded": 1
             }
-        },
-        {
-            "atomType": "Rectangle",
-            "name": "Rectangle",
-            "x": 0.7598828696925329,
-            "y": 0.8314176245210728,
-            "uniqueID": 945457,
-            "ioValues": [
-                {
-                    "name": "x length",
-                    "ioValue": 10
-                },
-                {
-                    "name": "y length",
-                    "ioValue": 10
-                }
-            ]
         }
     ],
     "allConnectors": [
@@ -501,6 +550,13 @@
             "ap2Primary": true,
             "ap1ID": 624154,
             "ap2ID": 705620
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "Geometry",
+            "ap2Primary": false,
+            "ap1ID": 624154,
+            "ap2ID": 152056
         },
         {
             "ap1Name": "number or geometry",
